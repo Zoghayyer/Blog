@@ -1,0 +1,11 @@
+// Ahmed Zoghayyer
+@import '../../../../styles/variables';
+
+.delete-link {
+  cursor: pointer;
+  color: $red-light;
+
+  &:hover {
+    color: $red-dark;
+  }
+}

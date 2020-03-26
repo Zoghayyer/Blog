@@ -1,0 +1,19 @@
+// Ahmed Zoghayyer
+@import '../../styles/variables';
+
+#login-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  .button-input-dimension {
+    width: 30em;
+    height: 50px;
+  }
+
+  .invalid-user {
+    margin-top: 3px;
+    font-size: 12px;
+  }
+}
